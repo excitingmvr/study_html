@@ -20,36 +20,32 @@
 </head>
 
 <body>
-
+	<p>colspan</p> 
 	<table border="1">
-		<thead>
-			<tr>
-				<th width="50px">번호</th>
-				<th>이름</td>
-				<th>아이디</th>
-				<th>이메일</th>
-				<th>전화번호</th>
-			</tr>
-		</thead>
-		<tbody >		
-			<tr>
-				<td>123456789</td>
-				<td>정은지</td>
-				<td>asdfasdf</td>
-				<td>asdasdf@asdasdf</td>
-				<td>010-9999-9999</td>
-			</tr>
-		</tbody>
-		<tfoot>
-			<tr>
-				<td>123456789tfoot</td>
-				<td height="100px">정은지tfoot</td>
-				<td>asdfasdftfoot</td>
-				<td>asdasdf@asdasdftfoot</td>
-				<td>010-9999-9999tfoot</td>
-			</tr>
-		</tfoot>	
+		<tr>
+			<th width="50px">번호</th>
+			<th>이름</td>
+			<th>아이디</th>
+		</tr>
+		<tr>
+			<td>123456789</td>
+			<td colspan="2">정은지</td>
+		</tr>
+	</table>	
+	
+	<p>rowspan</p>
+	<table border="1">
+		<tr>
+			<th width="50px" rowspan="2">번호</th>
+			<th>이름</td>
+			<th>아이디</th>
+		</tr>
+		<tr>
+			<td>정은지</td>
+			<td>asdfasdf</td>
+		</tr>
 	</table>
+	
 
 </body>
 </html>

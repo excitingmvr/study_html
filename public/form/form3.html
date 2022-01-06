@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- 
+	1.html
+	2.javascript(jqery) in html -> validation check
+	3.java
+ -->	
+
+	<form action="java소스위치" method="get" id="form" name="form">
+		<input type="text" id="nickname" name="nickname">
+		<input type="button" id="button" name="button" value="제출" onclick="here();">
+	</form>
+
+	<script type="text/javascript">
+		/* validation */
+		function here() {
+			alert("nickname: " + document.getElementById("nickname").value);
+			document.getElementById("form").submit();
+		}
+	</script>
+
+</body>
+</html>
