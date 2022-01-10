@@ -7,7 +7,8 @@
 </head>
 <body>
 	
-	<form action="" method="post" id="form" name="" enctype="multipart/form-data">
+	<form action="" method="get" id="form" name="" enctype="multipart/form-data">
+	
 		아이디 : <input type="text" id="id1" name="id1">
 		<br>아이디 : <input type="text" id="id2" name="id2" size="50">
 		<br>아이디 : <input type="text" id="" name="" maxlength="20">
@@ -16,16 +17,35 @@
 		<br>아디디 : <input type="text" id="" name="" size="50" placeholder="" value="maxkguy">
 		<br>아디디 : <input type="text" id="" name="" size="50" autofocus="autofocus">
 		
-		<br><input type="button" id="button" name="button" value="제출" onclick="here();">
+		<br>아디디 : <input type="text" id="" name="" size="50" autofocus="autofocus" value="장원영" readonly>
+		<br>아디디 : <input type="text" id="" name="" size="50" autofocus="autofocus" value="장원영" disabled>
+		
+		<hr>
+		
+		<select disabled>
+			<option>1
+			<option>2
+			<option selected>3
+		</select>
+		
+		<hr>
+		
+		<p>여기부터 hidden</p>
+		<input type="hidden" id="" name="hidden" value="yes">	
+		<p>여기까지 hidden</p>
+		
+		<br><input type="submit" name="submit">
+		
+		<!-- <br><input type="button" id="button" name="button" value="제출" onclick="here();"> -->
 	</form>
-	
+<!-- 	
 	<script type="text/javascript">
 		/* validation */
 		function here() {
-			alert("id1: " + document.getElementById("id1").value);
+			alert("hidden: " + document.getElementById("hidden").value);
 			document.getElementById("form").submit();
 		}
 	</script>
-		
+ -->		
 </body>
 </html>
