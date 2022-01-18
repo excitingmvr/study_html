@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="uTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tony(여기에 본인이름 넣기)</title>
+  
+<style type="text/css">
+	
+	/* 하위선택자 */
+	div ul li {
+		border: solid 1px black;
+	}
+	
+	/* 자식선택자 */
+	div > ul {
+		border: solid 1px red;
+	}
+		
+	/* 인접 형제 선택자 */
+	h3 + p {
+		color: red;
+	}
+	
+	
+	/* 형제 선택자 */
+	h3 ~ p {
+		color: red;
+	}
+	
+</style>
+
+<!-- <link href="../css/style.css" rel="stylesheet" type="text/css"> -->
+</head>
+
+<body>
+	<div>
+		<h3>취미</h3>
+		<p>취미가 다양하다</p>
+		<p>다양다양 진자 다양다양</p>
+		<ul>
+			<li>원영
+				<ul>
+					<li>코딩
+					<li>자전거
+				</ul>
+			<li>지현
+				<ul>
+					<li>디자인
+					<li>쇼핑
+					<li>테니스
+					<li>전시회
+				</ul>
+		</ul>
+	</div>
+</body>
+</html>
