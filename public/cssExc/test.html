@@ -1,73 +1,58 @@
-<!DOCTYPE html>
-<html lang="ko">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style type="text/css">
-    	table, tr, td{
-    		border: 1px solid black;
-    		/* border-collapse: collapse; */
-    		border-collapse: separate;
-    		/* border-spacing: 10px 10px; */
-    		width: 600px;
-    		table-layout: fixed;
-    		height:50px;
-    		border: 1px solid black;
-    		/* vertical-align: top; */
-    	}
-    	
- 
+<meta charset="uTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+#wrap{
+	width:"600px";
+text-align:center;
+}
 
-    </style>
-    
+#header{
+	height:"20%";
+	background:red;
+	}
+	
+#left{
+	width: 200px;
+	
+	height:60%;
+	float:left;
+
+}
+#right{
+	width:"400px";
+	background:grey;
+	height:"60%";
+	float:"right";
+}
+#footer {
+	background:yellow;
+	height:"20%";
+}
+
+#footer {
+	clear: both;
+}
+	
+</style>
 </head>
 <body>
+	<div id="wrap">
 
-	<table>
-		<tr>
-			<td width="100px;">번호</td>
-			<td width="100px;">이름</td>
-			<td width="100px;">아아디</td>
-			<td width="200px;">모바일</td>
-			<td width="100px;">이메일</td>
-		</tr>
-		<tr>
-			<td>1</td>
-			<td>장원영</td>
-			<td>enjoy</td>
-			<td>010-9999-9999</td>
-			<td>yuio@asdfas.com</td>
-		</tr>
-		<tr>
-			<td>2</td>
-			<td>전지현</td>
-			<td>beautiful</td>
-			<td>010-9999-9999</td>
-			<td>asdfasdf@asdfas.comasdfasdfaㅁㄴㅇㄹㅁㄴㅇㄹ</td>
-		</tr>
-		<tr>
-			<td>3</td>
-			<td>장동건</td>
-			<td>handsome</td>
-			<td>010-9999-9999</td>
-			<td>cvbnxcv@asdfas.com</td>
-		</tr>
-		<tr>
-			<td>4</td>
-			<td>고소영</td>
-			<td>wowwow</td>
-			<td>010-9999-9999</td>
-			<td>rtyur@asdfas.com</td>
-		</tr>
-		<tr>
-			<td>5</td>
-			<td>정은지</td>
-			<td>realsinger</td>
-			<td>010-9999-9999</td>
-			<td>dfgh@asdfas.com</td>
-		</tr>
-	</table>
+		<div id="header"><p>header</p></div>
+		
+		
+		<div id="main">
+			<div id="left"><p>left</p></div>
+			<div id="right"><p>right</p></div>
+		</div>
+		
+		
+		<div id="footer"><p>footer</p></div>
+		
 
+	</div>
 </body>
 </html>
